@@ -66,7 +66,11 @@ export default function App() {
 
         <p className="codes">
           This Weather App was coded by Anne Kala and is {""}
-          <a href="https://github.com/annekala/weather-react" target="_blank">
+          <a
+            href="https://github.com/annekala/weather-react"
+            target="_blank"
+            rel="noreferrer"
+          >
             Open-sourced on GitHub
           </a>
         </p>
