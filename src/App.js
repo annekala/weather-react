@@ -29,7 +29,6 @@ export default function App() {
           <div className="row">
             <div className="col-md-6">
               <h1>Paris</h1>
-
               <ul>
                 <li className="element">Last updated: Tuesday 10:00am</li>
                 <li className="element-clouds">Partly Cloudy</li>
@@ -39,7 +38,7 @@ export default function App() {
             <div className="clearfix show-temperature">
               <div className="shift-temperature">
                 <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="" />
-                <strong>{19}</strong>
+                <strong>19</strong>
                 <span className="units">
                   <a href="/" className="active">
                     °C{" "}
