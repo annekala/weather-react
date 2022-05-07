@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
-import FormattedDate from "FormattedDate";
+import FormattedDate from "./FormattedDate";
 import Forecast from "./Forecast";
 
 export default function App(props) {
