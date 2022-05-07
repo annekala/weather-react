@@ -86,10 +86,9 @@ li {
   cursor: pointer;
 }
 
-.show-temperature img {
+.show-temperature canvas {
   margin-right: -13px;
-  height: 100px;
-  width: 100px;
+  margin-top: 5px;
   display: inline-block;
   line-height: 300px;
   vertical-align: top;
