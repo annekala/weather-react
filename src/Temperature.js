@@ -30,8 +30,19 @@ export default function Temperature(props) {
       </div>
     );
   } else {
-    let fahrenheit = (props.celsius * 9) / 5 + 32;
-
-    return "F";
+    return (
+      <div>
+        <strong>{Math.round(props.celsius)}</strong>
+        <span className="units">
+          <a href="/" className="active">
+            °C{" "}
+          </a>
+          |
+          <a href="/" className="active" onclick={showFahrenheit}>
+            °F
+          </a>
+        </span>
+      </div>
+    );
   }
 }
