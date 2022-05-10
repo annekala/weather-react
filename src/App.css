@@ -11,7 +11,7 @@ h1 {
   font-size: 45px;
   line-height: 28px;
   font-weight: 700;
-  margin-bottom: 0;
+  margin-bottom: 10;
   color: #00175f;
 }
 
@@ -62,7 +62,7 @@ li {
   color: black;
 }
 .element {
-  line-height: 40px;
+  line-height: 25px;
 }
 
 .shift {
