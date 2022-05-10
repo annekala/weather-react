@@ -23,7 +23,7 @@ export default function Temperature(props) {
             °C{" "}
           </a>
           |
-          <a href="/" className="active" onclick={showFahrenheit}>
+          <a href="/" className="active" onClick={showFahrenheit}>
             °F
           </a>
         </span>
@@ -38,7 +38,7 @@ export default function Temperature(props) {
             °C{" "}
           </a>
           |
-          <a href="/" className="active" onclick={showFahrenheit}>
+          <a href="/" className="active" onClick={showFahrenheit}>
             °F
           </a>
         </span>

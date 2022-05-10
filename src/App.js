@@ -15,18 +15,19 @@ export default function App(props) {
       description: response.data.weather[0].description,
       icon: response.data.weather[0].icon,
       humidity: response.data.main.humidity,
-      wind: response.data.main.wind.speed,
+      wind: response.data.wind.speed,
       city: response.data.name,
     });
   }
-  function handleSubmit(event) {
-    event.preventDefault();
-    search(city);
-  }
   function search() {
-    let url = `https://api.openweathermap.org/data/2.5/weather?q=${props.city}&appid=b277a23ccaf8535566ba9c0db7d5a42b&units=metric`;
+    let url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=b277a23ccaf8535566ba9c0db7d5a42b&units=metric`;
     axios.get(url).then(handleResponse);
   }
+  function handleSubmit(event) {
+    event.preventDefault();
+    search();
+  }
+
   function handleCityChange(event) {
     setCity(event.target.value);
   }
