@@ -5,6 +5,7 @@ export default function Weather() {
   return (
     <div className="weather">
       <App city="New York" />
+
       <p className="codes">
         This Weather App was coded by Anne Kala and is {""}
         <a
