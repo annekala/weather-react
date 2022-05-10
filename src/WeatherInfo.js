@@ -14,7 +14,7 @@ export default function WeatherInfo(props) {
             <li className="element">
               <FormattedDate date={props.data.date} />
             </li>
-            <li className="element-clouds">{props.data.description}</li>
+            <li className="text-capitalize">{props.data.description}</li>
           </ul>
         </div>
 
@@ -22,7 +22,7 @@ export default function WeatherInfo(props) {
           <div className="shift-temperature">
             <WeatherIcon code={props.data.icon} />
 
-            <Temperature />
+            <Temperature celsius={props.data.temperature} />
           </div>
         </div>
         <ul className="shift">
