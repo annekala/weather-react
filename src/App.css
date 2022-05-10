@@ -64,9 +64,7 @@ li {
 .element {
   line-height: 40px;
 }
-.text-capitalize {
-  line-height: 5px;
-}
+
 .shift {
   text-align: center;
   line-height: 15px;
