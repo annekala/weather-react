@@ -20,7 +20,7 @@ export default function WeatherInfo(props) {
 
         <div className="clearfix show-temperature">
           <div className="shift-temperature">
-            <WeatherIcon code={props.data.icon} />
+            <WeatherIcon code={props.data.icon} size={52} />
             <Temperature celsius={props.data.temperature} />
           </div>
         </div>
